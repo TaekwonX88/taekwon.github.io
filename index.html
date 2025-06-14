@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button">Нажми на меня</button>
+</body>
+<script src="script.js"></script>
+<script>
+    document.querySelector('button').addEventListener('click', function() {
+        alert('Привет милая девушка. Хочу пожелать тебе удачного дня, отличного настроения и море позитива! Оставайся такой же красивой и умной, какой ты есть!');
+    });
+</script>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+    button:active {
+        background-color: #004085;
+    }
+</style>
+</html>
